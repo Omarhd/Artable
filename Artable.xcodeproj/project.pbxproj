@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67234BE023757DC600F49CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67234BDF23757DC600F49CFC /* AppDelegate.swift */; };
+		67234BE223757DC600F49CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67234BE123757DC600F49CFC /* ViewController.swift */; };
+		67234BE523757DC600F49CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67234BE323757DC600F49CFC /* Main.storyboard */; };
+		67234BE723757DCA00F49CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67234BE623757DCA00F49CFC /* Assets.xcassets */; };
+		67234BEA23757DCA00F49CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67234BE823757DCA00F49CFC /* LaunchScreen.storyboard */; };
+		67234BF823757DE700F49CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67234BF723757DE700F49CFC /* AppDelegate.swift */; };
+		67234BFA23757DE700F49CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67234BF923757DE700F49CFC /* ViewController.swift */; };
+		67234BFD23757DE700F49CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67234BFB23757DE700F49CFC /* Main.storyboard */; };
+		67234C0223757DE800F49CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67234C0023757DE800F49CFC /* LaunchScreen.storyboard */; };
+		67234C0823757E1E00F49CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67234BE623757DCA00F49CFC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67234BDC23757DC600F49CFC /* Artable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67234BDF23757DC600F49CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67234BE123757DC600F49CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67234BE423757DC600F49CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67234BE623757DCA00F49CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67234BE923757DCA00F49CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67234BEB23757DCA00F49CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67234BF523757DE700F49CFC /* ArtableAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtableAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67234BF723757DE700F49CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67234BF923757DE700F49CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67234BFC23757DE700F49CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67234C0123757DE800F49CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67234C0323757DE800F49CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67234BD923757DC600F49CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67234BF223757DE700F49CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67234BD323757DC600F49CFC = {
+			isa = PBXGroup;
+			children = (
+				67234C0723757DF600F49CFC /* Shared */,
+				67234BDE23757DC600F49CFC /* Artable */,
+				67234BF623757DE700F49CFC /* ArtableAdmin */,
+				67234BDD23757DC600F49CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67234BDD23757DC600F49CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67234BDC23757DC600F49CFC /* Artable.app */,
+				67234BF523757DE700F49CFC /* ArtableAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67234BDE23757DC600F49CFC /* Artable */ = {
+			isa = PBXGroup;
+			children = (
+				67234BDF23757DC600F49CFC /* AppDelegate.swift */,
+				67234BE123757DC600F49CFC /* ViewController.swift */,
+				67234BE323757DC600F49CFC /* Main.storyboard */,
+				67234BE823757DCA00F49CFC /* LaunchScreen.storyboard */,
+				67234BEB23757DCA00F49CFC /* Info.plist */,
+			);
+			path = Artable;
+			sourceTree = "<group>";
+		};
+		67234BF623757DE700F49CFC /* ArtableAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				67234BF723757DE700F49CFC /* AppDelegate.swift */,
+				67234BF923757DE700F49CFC /* ViewController.swift */,
+				67234BFB23757DE700F49CFC /* Main.storyboard */,
+				67234C0023757DE800F49CFC /* LaunchScreen.storyboard */,
+				67234C0323757DE800F49CFC /* Info.plist */,
+			);
+			path = ArtableAdmin;
+			sourceTree = "<group>";
+		};
+		67234C0723757DF600F49CFC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				67234BE623757DCA00F49CFC /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67234BDB23757DC600F49CFC /* Artable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67234BEE23757DCA00F49CFC /* Build configuration list for PBXNativeTarget "Artable" */;
+			buildPhases = (
+				67234BD823757DC600F49CFC /* Sources */,
+				67234BD923757DC600F49CFC /* Frameworks */,
+				67234BDA23757DC600F49CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Artable;
+			productName = Artable;
+			productReference = 67234BDC23757DC600F49CFC /* Artable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67234BF423757DE700F49CFC /* ArtableAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67234C0423757DE800F49CFC /* Build configuration list for PBXNativeTarget "ArtableAdmin" */;
+			buildPhases = (
+				67234BF123757DE700F49CFC /* Sources */,
+				67234BF223757DE700F49CFC /* Frameworks */,
+				67234BF323757DE700F49CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtableAdmin;
+			productName = ArtableAdmin;
+			productReference = 67234BF523757DE700F49CFC /* ArtableAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67234BD423757DC600F49CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Omar;
+				TargetAttributes = {
+					67234BDB23757DC600F49CFC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					67234BF423757DE700F49CFC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 67234BD723757DC600F49CFC /* Build configuration list for PBXProject "Artable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67234BD323757DC600F49CFC;
+			productRefGroup = 67234BDD23757DC600F49CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67234BDB23757DC600F49CFC /* Artable */,
+				67234BF423757DE700F49CFC /* ArtableAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67234BDA23757DC600F49CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67234BEA23757DCA00F49CFC /* LaunchScreen.storyboard in Resources */,
+				67234BE723757DCA00F49CFC /* Assets.xcassets in Resources */,
+				67234BE523757DC600F49CFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67234BF323757DE700F49CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67234C0223757DE800F49CFC /* LaunchScreen.storyboard in Resources */,
+				67234C0823757E1E00F49CFC /* Assets.xcassets in Resources */,
+				67234BFD23757DE700F49CFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67234BD823757DC600F49CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67234BE223757DC600F49CFC /* ViewController.swift in Sources */,
+				67234BE023757DC600F49CFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67234BF123757DE700F49CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67234BFA23757DE700F49CFC /* ViewController.swift in Sources */,
+				67234BF823757DE700F49CFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67234BE323757DC600F49CFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67234BE423757DC600F49CFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67234BE823757DCA00F49CFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67234BE923757DCA00F49CFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		67234BFB23757DE700F49CFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67234BFC23757DE700F49CFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67234C0023757DE800F49CFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67234C0123757DE800F49CFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67234BEC23757DCA00F49CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67234BED23757DCA00F49CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67234BEF23757DCA00F49CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				INFOPLIST_FILE = Artable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charapp.Artable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67234BF023757DCA00F49CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				INFOPLIST_FILE = Artable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charapp.Artable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67234C0523757DE800F49CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				INFOPLIST_FILE = ArtableAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charapp.ArtableAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67234C0623757DE800F49CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				INFOPLIST_FILE = ArtableAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charapp.ArtableAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67234BD723757DC600F49CFC /* Build configuration list for PBXProject "Artable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67234BEC23757DCA00F49CFC /* Debug */,
+				67234BED23757DCA00F49CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67234BEE23757DCA00F49CFC /* Build configuration list for PBXNativeTarget "Artable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67234BEF23757DCA00F49CFC /* Debug */,
+				67234BF023757DCA00F49CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67234C0423757DE800F49CFC /* Build configuration list for PBXNativeTarget "ArtableAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67234C0523757DE800F49CFC /* Debug */,
+				67234C0623757DE800F49CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67234BD423757DC600F49CFC /* Project object */;
+}
